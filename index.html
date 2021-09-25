@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  user-select: none;
+}
+
+body{
+  background-color: #3A3B3C;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+html{
+    height: 100%;
+}
+
+.form{
+outline: none;
+height: 20px;
+width: 146px;
+margin-left: 18px;
+border: 1px solid #3b5998;
+background-color: white;
+padding-left: 6px;
+}
+
+label{
+font-family: roboto;
+font-size: 14px;
+}
+
+#label1{
+margin-left: 104px;
+cursor: context-menu;
+color: white;
+}
+
+#label2{
+margin-left: 106px;
+cursor: context-menu;
+color: white;
+}
+
+#button1{
+border: 0px;
+outline:none;
+background-color: #3b5998;
+opacity: 0.9;
+font-family: roboto;
+border-radius: 0px;
+height: 24px;
+width: 80px;
+margin-left: 20px;
+margin-top: 10px;
+color: white;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+#button1:hover{
+opacity: 1;
+}
+
+#button1:active{
+background-color:  #3b5998;
+color:black;
+transition-duration: 0.2s;
+}
+
+#button2{
+border: 0px;
+outline:none;
+background-color: #3b5998;
+opacity: 0.9;
+font-family: roboto;
+border-radius: 0px;
+height: 24px;
+width: 60px;
+margin-left: 2px;
+margin-top: 10px;
+color: white;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+#button2:hover{
+opacity: 1;
+}
+
+#button2:active{
+background-color:  #3b5998;
+color:black;
+transition-duration: 0.2s;
+}
+
+div{
+border: 1px dashed white;
+height: 160px;
+width: 190px;
+background-color: #3A3B3C;
+border-radius: 4px;
+}
+
+
+</style>
+</head>
+<body>
+<div><br>
+
+<label id="label1" for="form1">Username:</label>
+
+<input id="form1" class="form" type="email"><label for="form2" id="label2">Password:</label>
+<input id="form2" class="form" type="password">
+
+<input type="button" id="button1" value="Register">
+<input type="button" id="button2" value="Login">
+
+</div>
+</body>
+</html>
